@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+}
+
+#redButton {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #ff4d4d, #cc0000);
+  border: none;
+  box-shadow: 0 10px #800000, 0 0 30px rgba(255, 0, 0, 0.6);
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+#redButton:active {
+  transform: translateY(10px);
+  box-shadow: 0 2px #800000;
+}
