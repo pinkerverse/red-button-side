@@ -22,3 +22,11 @@ body {
   transform: translateY(10px);
   box-shadow: 0 2px #800000;
 }
+#warningText {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  letter-spacing: 2px;
+}
